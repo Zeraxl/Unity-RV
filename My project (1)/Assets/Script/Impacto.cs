@@ -15,9 +15,11 @@ public class Impacto : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider col){
-        if (col.CompareTag("Limite")) return;
+        if (col.CompareTag("Limite") || col.CompareTag("Enemigo")) return;
 
-        Instantiate(explosion, transform.position, transform.rotation);
+        if (explosion != null){
+            Instantiate(explosion, transform.position, transform.rotation);
+        }        
 
         if(col.CompareTag("Jugador")){
             Instantiate(explosionJugador, col.transform.position, col.transform.rotation);

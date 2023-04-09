@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 1972695990511313810}
   - component: {fileID: -410406818641991008}
   m_Layer: 0
-  m_Name: Proyectil
+  m_Name: Proyectil Cyan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
