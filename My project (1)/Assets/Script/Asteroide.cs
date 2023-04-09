@@ -15,4 +15,5 @@ public class Asteroide : MonoBehaviour
     {
         rig.angularVelocity = Random.insideUnitSphere * rotacion;
     }
+    
 }
