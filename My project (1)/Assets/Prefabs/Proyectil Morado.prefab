@@ -96,10 +96,9 @@ GameObject:
   - component: {fileID: 1972695990511313815}
   - component: {fileID: 1972695990511313810}
   - component: {fileID: -410406818641991008}
-  - component: {fileID: -8032240409472213892}
   m_Layer: 0
   m_Name: Proyectil Morado
-  m_TagString: Enemigo
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +110,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972695990511313814}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.7}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
@@ -119,7 +118,7 @@ Transform:
   - {fileID: 1972695990161618827}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1972695990511313808
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -146,8 +145,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.26
-  m_Height: 5.16
+  m_Radius: 0.5
+  m_Height: 6
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1972695990511313810
@@ -162,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b1bb93a32996ab479d9a4eb0126bb4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -100
+  speed: 100
 --- !u!82 &-410406818641991008
 AudioSource:
   m_ObjectHideFlags: 0
@@ -259,18 +258,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-8032240409472213892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972695990511313814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b130d58c0dfa8ad4d98332c2e747e08f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 0}
-  explosionJugador: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 3}
-  puntuacion: 0
