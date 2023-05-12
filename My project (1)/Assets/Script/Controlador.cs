@@ -27,7 +27,7 @@ public class Controlador : MonoBehaviour
 
     void Update() {
         if(reinicio && Input.GetKeyDown(KeyCode.Space)){
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("menu");
         }
     }
 

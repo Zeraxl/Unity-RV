@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/nivel_tierra.unity
+    guid: 171043c426aae374bb24f3a7c7bbefd4
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: 20df4f13ce2fdf14d9c71d8ff02fa76e
+  - enabled: 1
+    path: Assets/Scenes/nivel_saturno.unity
+    guid: 199e68b74024e3142b4f389a9f9843b6
+  - enabled: 1
+    path: Assets/Scenes/nivel_marte.unity
+    guid: 597cbf703e4e46e49b51194cd0b981a8
   m_configObjects: {}
